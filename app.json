@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "LeleKart",
+    "slug": "LeleKart",
+    "version": "8.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "lelekart",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lelekart.lelekartecommerceapp",
+      "buildNumber": "11",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "privacyPolicyUrl": "https://www.lelekart.com/privacy-and-policy/"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "bundleIdentifier": "com.lelekart.lelekartecommerceapp",
+      "versionCode": 24,
+      "privacyPolicyUrl": "https://www.lelekart.com/privacy-and-policy/",
+      "package": "com.lelekart.lelekartecommerceapp"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Inter-Regular.ttf",
+            "./assets/fonts/Inter-Medium.ttf",
+            "./assets/fonts/Inter-SemiBold.ttf",
+            "./assets/fonts/Inter-Bold.ttf",
+            "./assets/fonts/InterDisplay-ExtraBold.ttf"
+          ]
+        }
+      ],
+      "expo-secure-store",
+      "react-native-edge-to-edge"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "description": "LeleKart is your one-stop e-commerce app for all your shopping needs. Browse through a wide range of products, enjoy seamless navigation, and experience secure transactions.",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "574cb241-ac85-4e8c-9f66-fc5988e21fef"
+      }
+    }
+  }
+}

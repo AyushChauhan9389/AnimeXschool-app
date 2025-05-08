@@ -1,0 +1,10 @@
+{
+  "$schema": "https://saaj-ui.vercel.app/schema.json",
+  "dirs": {
+    "components": "components/ui",
+    "hooks": "hooks",
+    "styles": "styles",
+    "types": "types",
+    "utils": "utils"
+  }
+}
